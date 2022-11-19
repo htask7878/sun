@@ -175,6 +175,7 @@ class _sunState extends State<sun> {
       child: InkWell(
         onTap: (l[i] == "" && winner == false)
             ? () {
+
                 if (cnt % 2 == 0) {
                   l[i] = s1;
                   u_v_list.add(s1);
